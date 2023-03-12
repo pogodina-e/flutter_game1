@@ -146,25 +146,25 @@ class _HomePageState extends State<HomePage> {
                       AnimatedContainer(
                           alignment: Alignment(barrierXOne, 1.1),
                           duration: const Duration(milliseconds: 0),
-                          child: MyBarrier(
+                          child: const MyBarrier(
                             size: 200.0,
                           )),
                       AnimatedContainer(
                           alignment: Alignment(barrierXOne, -1.1),
                           duration: const Duration(milliseconds: 0),
-                          child: MyBarrier(
+                          child: const MyBarrier(
                             size: 200.0,
                           )),
                       AnimatedContainer(
                           alignment: Alignment(barrierXTwo, 1.1),
                           duration: const Duration(milliseconds: 0),
-                          child: MyBarrier(
+                          child: const MyBarrier(
                             size: 170.0,
                           )),
                       AnimatedContainer(
                           alignment: Alignment(barrierXTwo, -1.1),
                           duration: const Duration(milliseconds: 0),
-                          child: MyBarrier(
+                          child: const MyBarrier(
                             size: 250.0,
                           )),
                     ],
